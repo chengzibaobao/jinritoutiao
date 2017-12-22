@@ -1,0 +1,261 @@
+body{
+	font-size: 16px;
+	font-family: "微软雅黑"，"苹方"，"sans-serif"
+}
+header{
+	width: 100%;
+	height: 1.77rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999
+}
+.head-top{
+	width: 100%;
+	height: 0.88rem;
+	background-color: #c93a3a;
+	padding:0 .24rem; 
+}
+.head-top h1{
+	font-size: .37rem;
+	color: #fff;
+	font-weight: bolder;
+	line-height: 0.88rem;
+	float: left
+}
+.head-search{
+	width: 5.02rem;
+	height: 0.57rem;
+	background-color: blue;
+	float: right;
+	margin-top: .155rem
+
+}
+.head-search input{
+	width: 100%;
+	height: 100%;
+	padding-left:.68rem;
+	border: 0
+}
+nav{
+	width: 100%;
+	height: 0.89rem;
+	padding:0 .24rem; 
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+	/* 设置单行对齐方式 */
+	align-items: center;
+	background-color: #fff
+}
+nav a{
+	color: #000;
+	font-size: .34rem;
+}
+.nav-active{
+	font-size: 0.4rem;
+	color: #d43d3d
+}
+.nav-more{
+	display: block;
+	width: .53rem;
+	height: 100%;
+	text-align: right;
+	box-shadow: -6px 0 10px #ccc;
+	line-height: .89rem
+}
+.content{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.77rem;
+	bottom: .98rem;
+	background-color: pink;
+	overflow-y: scroll;
+}
+.banner{
+	width: 100%;
+	height: 3.1rem;
+	background-color: yellow
+}
+.banner-img,.banner-itm{
+	width: 100%;
+	height: 100%;
+
+}
+.category{
+	width: 100%;
+	height: 1.54rem;
+	background-color: #fff;
+	padding:0 .24rem; 
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+	/* 设置单行对齐方式 */
+	align-items: center
+
+}
+.category li{
+	width: 1.2rem;
+	height: 1.25rem;
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: center;
+	/* 设置单行对齐方式 */
+	align-content: space-between;
+
+
+}
+.category-box{
+	width: .72rem;
+	height: .72rem;
+	background-color: pink;
+	border-radius: 50%;
+	box-shadow: 0 0 .2rem #000 
+}
+.category li:nth-child(1) .category-box{
+	box-shadow: 0 0 .15rem rgba(255, 144, 144, 1)
+}
+.category li:nth-child(2) .category-box{
+	box-shadow: 0 0 .15rem rgba(162, 157, 255, 1)
+}
+.category li:nth-child(3) .category-box{
+	box-shadow: 0 0 .15rem rgba(255, 101, 104, 1)
+}
+.category li:nth-child(4) .category-box{
+	box-shadow: 0 0 .15rem rgba(255, 164, 46, 1)
+}
+.category-wenzi{
+	font-size: .28rem;
+	font-weight: 700;
+	color: #575757;
+
+}
+.notice{
+	width: 100%;
+	height: 2.48rem;
+	background-color: #fff;
+	border-top: .02rem solid #eee;
+	padding: .29rem .24rem 0; 
+}
+.notice-top{
+	width: 100%;
+	height: 1.46rem;
+	background-color: #fff
+
+}
+.notice-top p{
+	width: 4.36rem;
+	height: 100%;
+	font-size: .38rem;
+	float: left;
+}
+.notice-img{
+	width: 2.24rem;
+	height: 100%;
+	float: right;
+	background-color: pink
+}
+.notice-bottem{
+	overflow: hidden;
+	width: 100%;
+	background-color: #fff;
+	margin-top: .05rem
+}
+.name,.pinglun,.time{
+	float: left;
+	margin-right: .2rem;
+	font-size: .24rem;
+	color: #5f5f5f
+}
+.end{
+	float: right
+}
+.second-top{
+	width: 100%;
+	height: 0.86rem;
+	background-color:#fff
+}
+.second{
+	width: 100%;
+	height: 3.56rem;
+	background-color: #fff;
+	border-top: .02rem solid #eee;
+	padding: .29rem .24rem 0; 
+}
+.second-top p{
+	width: 100%;
+	height: 100%;
+	font-size: .38rem;
+}
+.second-box{
+	width: 100%;
+	height: 1.72rem;
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+	/* 设置单行对齐方式 */
+	align-items: center
+}
+.pic{
+	width: 2.24rem;
+	height: 1.47rem;
+	box-shadow: 0 0 0.4rem #cacaca
+}
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background-color:#fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	padding: 0 0.23rem;
+	/* 设置弹性布局 */
+	display: flex;
+	/* 设置内容换行 */
+	flex-wrap: wrap;
+	/* 设置水平方向对齐方式 */
+	justify-content: space-between;
+	/* 设置单行对齐方式 */
+	align-items: center
+}
+.daohang{
+	width: 0.81rem;
+	height: 100%;
+	text-align: center
+}
+.daohangw{
+	width: 0.87rem;
+	height: 100%;
+
+}
+.daohang-tubiao{
+	width: 0.42rem;
+	height: 0.39rem;
+	margin:0.1rem auto 0; 
+}
+.daohang-wenzi{
+	font-size: 0.2rem;
+	color: #000;
+	margin-bottom: .14rem;
+	
+}
+.jiahao{
+	font-size: 0.87rem;
+	text-align: center;
+	line-height: 100%;
+	color: #666666
+}
